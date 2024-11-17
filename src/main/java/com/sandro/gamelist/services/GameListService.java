@@ -1,7 +1,9 @@
 package com.sandro.gamelist.services;
 
 import com.sandro.gamelist.dto.GameListDTO;
+import com.sandro.gamelist.dto.GameMinDTO;
 import com.sandro.gamelist.entities.GameList;
+import com.sandro.gamelist.projections.GameMinProjection;
 import com.sandro.gamelist.repositories.GameListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
